@@ -64,21 +64,19 @@ section {
             }
         }               
     }
-    .radio-section {
-        text-align: left;
-        margin:10px 0 0 40px;
-        .radio-btn{
-            display: inline;
-        }
-        .gender-lbl {
-            display: inline;
-        }
-    }
+    // .radio-section {
+    //     text-align: left;
+    //     margin:10px 0 0 40px;
+    //     .radio-btn{
+    //         display: inline;
+    //     }
+    //     .gender-lbl {
+    //         display: inline;
+    //     }
+    // }
     .check-section {
         margin-top: 10px;
-        legend {
-            font-size:15px;
-        }
+        
     }
     .show {
         text-align: center;

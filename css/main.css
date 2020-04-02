@@ -70,25 +70,8 @@ section .registered {
   text-align: center;
 }
 
-#main-form .radio-section {
-  text-align: left;
-  margin: 10px 0 0 40px;
-}
-
-#main-form .radio-section .radio-btn {
-  display: inline;
-}
-
-#main-form .radio-section .gender-lbl {
-  display: inline;
-}
-
 #main-form .check-section {
   margin-top: 10px;
-}
-
-#main-form .check-section legend {
-  font-size: 15px;
 }
 
 #main-form .show {
