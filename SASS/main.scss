@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background: #ececec;
+    text-align: center;
+    padding:20px 0;
+}
+
+main {
+    width: 100%;
+    background: #2645;
+    padding: 30px 0;
+
+    div{
+        margin-bottom: 10px;
+    }
+    aside {
+        margin-left:20px;
+    }
+}
+
+footer {
+    width:100%;
+    background: #efefef;
+    text-align: center;
+    padding:10px 0;
+}
+
+section {
+    background: dimgray;
+    width:15%;
+    min-width: 200px;
+    .registered {
+        text-align: center;
+        padding:162px 0;
+        color:#fff;
+    }
+}
+
+#main-form {
+    padding:40px 0;
+    
+    .form-lbl {
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+    .data {
+        font-size: 12px;
+        color:red;
+        display: none;
+    }
+    .form-input {
+        display: block;
+        margin: 0 auto;
+        &:focus {
+            & + .data {
+                display: block;
+                text-align: center;
+            }
+        }               
+    }
+    .radio-section {
+        text-align: left;
+        margin:10px 0 0 40px;
+        .radio-btn{
+            display: inline;
+        }
+        .gender-lbl {
+            display: inline;
+        }
+    }
+    .check-section {
+        margin-top: 10px;
+        legend {
+            font-size:15px;
+        }
+    }
+    .show {
+        text-align: center;
+        margin-top: 15px;
+        display: none;
+    }
+    
+    button {
+        display: block;
+        margin: 80px auto 0;
+        padding: 5px 25px;
+        border-radius: 25px;
+        &:focus {
+            & + .show{
+                display: block;
+            }
+        }
+        
+    }
+    
+}
+
+
+

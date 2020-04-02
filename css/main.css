@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background: #ececec;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  width: 100%;
+  background: #2645;
+  padding: 30px 0;
+}
+
+main div {
+  margin-bottom: 10px;
+}
+
+main aside {
+  margin-left: 20px;
+}
+
+footer {
+  width: 100%;
+  background: #efefef;
+  text-align: center;
+  padding: 10px 0;
+}
+
+section {
+  background: dimgray;
+  width: 15%;
+  min-width: 200px;
+}
+
+section .registered {
+  text-align: center;
+  padding: 162px 0;
+  color: #fff;
+}
+
+#main-form {
+  padding: 40px 0;
+}
+
+#main-form .form-lbl {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+#main-form .data {
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+
+#main-form .form-input {
+  display: block;
+  margin: 0 auto;
+}
+
+#main-form .form-input:focus + .data {
+  display: block;
+  text-align: center;
+}
+
+#main-form .radio-section {
+  text-align: left;
+  margin: 10px 0 0 40px;
+}
+
+#main-form .radio-section .radio-btn {
+  display: inline;
+}
+
+#main-form .radio-section .gender-lbl {
+  display: inline;
+}
+
+#main-form .check-section {
+  margin-top: 10px;
+}
+
+#main-form .check-section legend {
+  font-size: 15px;
+}
+
+#main-form .show {
+  text-align: center;
+  margin-top: 15px;
+  display: none;
+}
+
+#main-form button {
+  display: block;
+  margin: 80px auto 0;
+  padding: 5px 25px;
+  border-radius: 25px;
+}
+
+#main-form button:focus + .show {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

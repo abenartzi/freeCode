@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Form Example</title>
+</head>
+
+<body>
+    <header>
+        <div>This is my header</div>
+    </header>
+    
+    <main>
+        <div>This is my main area</div>
+
+    <aside>
+        <section>
+            <form id="main-form">
+                <label class="form-lbl" for="fname">Name:</label>
+                <input class="form-input" type="text" name="fname" id="fname">
+                <span class="data">Enter your full name</span>
+                <label class="form-lbl" for="email">Email</label>
+                <input class="form-input" type="email" name="email" id="email">
+                <span class="data">Enter your email address</span>
+
+                <div class="radio-section"> 
+                    <input type="radio" name="gender" id="male" class="radio-btn">
+                    <label for="male" class="gender-lbl">Male</label>
+                </div>
+                <div class="radio-section">
+                    <input type="radio" name="gender" id="female" class="radio-btn">
+                    <label for="female" class="gender-lbl">Female</label>
+                </div>
+
+                <fieldset class="check-section">
+                    <legend>Choose your favorite color</legend>
+                    <div>
+                        <input class="check-color" type="checkbox" name="color_blue" id="blue">
+                        <label for="blue">Blue</label>
+                    </div>
+                    <div>
+                        <input class="check-color" type="checkbox" name="color_red" id="red">
+                        <label for="red">Red</label>
+                    </div>
+                    <div>
+                        <input class="check-color" type="checkbox" name="color_green" id="green">
+                        <label for="green">Green</label>
+                    </div>
+                    <div>
+                        <input class="check-color" type="checkbox" name="color_yellow" id="yellow">
+                        <label for="yellow">Yellow</label>
+                    </div>
+                    
+
+                </fieldset>
+
+                <button>submit</button>
+                <span class="show">Sent Successfuly!!!</span>
+            </form>
+        </section>
+    </aside>
+    </main>
+
+    <footer>  
+        <div>This is my footer</div>    
+    </footer>
+    
+</body>
+</html>
+
+
