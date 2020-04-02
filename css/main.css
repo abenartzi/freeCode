@@ -62,7 +62,7 @@ section .registered {
 
 #main-form .form-input {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 #main-form .form-input:focus + .data {
@@ -70,8 +70,12 @@ section .registered {
   text-align: center;
 }
 
-#main-form .check-section {
-  margin-top: 10px;
+#main-form .title {
+  margin-bottom: 10px;
+}
+
+#main-form .subscribe-checkbox {
+  margin-top: 15px;
 }
 
 #main-form .show {
